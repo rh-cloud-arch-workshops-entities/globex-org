@@ -33,6 +33,17 @@ spec:
     picture: https://api.dicebear.com/6.x/open-peeps/svg?seed=lab-user3
   memberOf: [globex-developers, lab-users]
 ---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: opentlc-mgr
+spec:
+  profile:
+    displayName: OpenTLC Manager
+    email: opentlc-mgr@cluster.local
+    picture: https://api.dicebear.com/6.x/open-peeps/svg?seed=opentlc-mgr
+  memberOf: [globex-developers, lab-users]
+---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
 apiVersion: backstage.io/v1alpha1
 kind: Group
