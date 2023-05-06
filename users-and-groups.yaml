@@ -41,7 +41,7 @@ spec:
   profile:
     displayName: OpenTLC Manager
     email: opentlc-mgr@cluster.local
-    picture: https://api.dicebear.com/6.x/open-peeps/svg?seed=opentlc-mgr
+    picture: /api/proxy/user-avatars/svg?seed=opentlc-mgr
   memberOf: [globex-developers, lab-users]
 ---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
