@@ -8,7 +8,7 @@ spec:
   profile:
     displayName: Lab User1
     email: lab.user1@globex.com
-    picture: https://api.dicebear.com/6.x/open-peeps/svg?seed=lab-user1
+    picture: /api/proxy/user-avatars/svg?seed=lab-user1
   memberOf: [globex-developers, lab-users]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -19,7 +19,7 @@ spec:
   profile:
     displayName: Lab User2
     email: lab.user2@globex.com
-    picture: https://api.dicebear.com/6.x/open-peeps/svg?seed=lab-user2
+    picture: /api/proxy/user-avatars/svg?seed=lab-user2
   memberOf: [globex-developers, lab-users]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -30,7 +30,7 @@ spec:
   profile:
     displayName: Lab User3
     email: lab.user3@globex.com
-    picture: https://api.dicebear.com/6.x/open-peeps/svg?seed=lab-user3
+    picture: /api/proxy/user-avatars/svg?seed=lab-user3
   memberOf: [globex-developers, lab-users]
 ---
 apiVersion: backstage.io/v1alpha1
