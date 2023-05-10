@@ -5,8 +5,7 @@ kind: User
 metadata:
   name: bernard.tison
   namespace: redhat
-  description: |
-    Bernard is a **Senior Principal Product Marketing Manager** in the Application Services Team
+  description: Bernard is a Senior Principal Product Marketing Manager in the Application Services Team
 spec:
   profile:
     displayName: Bernard Tison
@@ -19,8 +18,7 @@ kind: User
 metadata:
   name: jaya.christina.baskaran
   namespace: redhat
-  description: |
-    Jaya is a **Principal Product Marketing Manager** in the Application Services Team
+  description: Jaya is a Principal Product Marketing Manager in the Application Services Team
 spec:
   profile:
     displayName: Jaya Christina Baskaran
@@ -33,8 +31,7 @@ kind: User
 metadata:
   name: bruno.meseguer
   namespace: redhat
-  description: |
-    Bruno is a **Principal Product Marketing Manager** in the Application Services Team
+  description: Bruno is a Principal Product Marketing Manager in the Application Services Team
 spec:
   profile:
     displayName: Bruno Meseguer
@@ -47,11 +44,10 @@ kind: User
 metadata:
   name: markus.nagel
   namespace: redhat
-  description: |
-    Markus is a **Principal Product Marketing Manager** in the Application Services Team
+  description: Markus is a Principal Product Marketing Manager in the Application Services Team
 spec:
   profile:
     displayName: Markus Nagel
     email: mnagel@redhat.com
-    picture: /api/proxy/user-avatars/svg?seed=lab-user4
+    picture: /api/proxy/user-avatars/svg?seed=Markus%20Nagel
   memberOf: [redhat/appservices]
