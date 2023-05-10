@@ -1,0 +1,12 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: appservices
+  namespace: redhat
+  description: |
+    The [Red Hat Application Services](https://www.redhat.com/en/about/videos/what-is-red-hat-application-services) team that brought this workshop to you :-) 
+spec:
+  type: team
+  children: []
+

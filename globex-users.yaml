@@ -1,0 +1,551 @@
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user1
+spec:
+  profile:
+    displayName: Lab User1
+    picture: /api/proxy/user-avatars/svg?seed=lab-user1
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user2
+spec:
+  profile:
+    displayName: Lab User2
+    email: lab.user2@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user2
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user3
+spec:
+  profile:
+    displayName: Lab User3
+    email: lab.user3@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user3
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user4
+spec:
+  profile:
+    displayName: Lab User4
+    email: lab.user4@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user4
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user5
+spec:
+  profile:
+    displayName: Lab User5
+    email: lab.user5@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user5
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user6
+spec:
+  profile:
+    displayName: Lab User6
+    email: lab.user6@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user6
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user7
+spec:
+  profile:
+    displayName: Lab User7
+    email: lab.user7@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user7
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user8
+spec:
+  profile:
+    displayName: Lab User8
+    email: lab.user8@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user8
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user9
+spec:
+  profile:
+    displayName: Lab User9
+    email: lab.user9@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user9
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user10
+spec:
+  profile:
+    displayName: Lab User10
+    email: lab.user10@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user10
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user11
+spec:
+  profile:
+    displayName: Lab User11
+    email: lab.user11@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user11
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user12
+spec:
+  profile:
+    displayName: Lab User12
+    email: lab.user12@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user12
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user13
+spec:
+  profile:
+    displayName: Lab User13
+    email: lab.user13@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user13
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user14
+spec:
+  profile:
+    displayName: Lab User14
+    email: lab.user14@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user14
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user15
+spec:
+  profile:
+    displayName: Lab User15
+    email: lab.user15@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user15
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user16
+spec:
+  profile:
+    displayName: Lab User16
+    email: lab.user16@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user16
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user17
+spec:
+  profile:
+    displayName: Lab User17
+    email: lab.user17@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user17
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user18
+spec:
+  profile:
+    displayName: Lab User18
+    email: lab.user19@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user18
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user19
+spec:
+  profile:
+    displayName: Lab User19
+    email: lab.user19@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user19
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user20
+spec:
+  profile:
+    displayName: Lab User20
+    email: lab.user20@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user20
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user21
+spec:
+  profile:
+    displayName: Lab User21
+    email: lab.user21@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user21
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user22
+spec:
+  profile:
+    displayName: Lab User22
+    email: lab.user22@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user22
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user23
+spec:
+  profile:
+    displayName: Lab User23
+    email: lab.user23@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user23
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user24
+spec:
+  profile:
+    displayName: Lab User24
+    email: lab.user24@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user24
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user25
+spec:
+  profile:
+    displayName: Lab User25
+    email: lab.user25@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user25
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user26
+spec:
+  profile:
+    displayName: Lab User26
+    email: lab.user26@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user26
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user27
+spec:
+  profile:
+    displayName: Lab User27
+    email: lab.user27@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user27
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user28
+spec:
+  profile:
+    displayName: Lab User28
+    email: lab.user28@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user28
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user29
+spec:
+  profile:
+    displayName: Lab User29
+    email: lab.user29@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user29
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user30
+spec:
+  profile:
+    displayName: Lab User30
+    email: lab.user30@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user30
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user31
+spec:
+  profile:
+    displayName: Lab User31
+    email: lab.user31@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user31
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user32
+spec:
+  profile:
+    displayName: Lab User32
+    email: lab.user32@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user32
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user33
+spec:
+  profile:
+    displayName: Lab User33
+    email: lab.user33@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user33
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user34
+spec:
+  profile:
+    displayName: Lab User34
+    email: lab.user34@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user34
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user35
+spec:
+  profile:
+    displayName: Lab User35
+    email: lab.user35@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user35
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user36
+spec:
+  profile:
+    displayName: Lab User36
+    email: lab.user36@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user36
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user37
+spec:
+  profile:
+    displayName: Lab User37
+    email: lab.user37@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user37
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user38
+spec:
+  profile:
+    displayName: Lab User38
+    email: lab.user38@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user38
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user39
+spec:
+  profile:
+    displayName: Lab User39
+    email: lab.user39@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user39
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user40
+spec:
+  profile:
+    displayName: Lab User40
+    email: lab.user40@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user40
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user41
+spec:
+  profile:
+    displayName: Lab User41
+    email: lab.user41@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user41
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user42
+spec:
+  profile:
+    displayName: Lab User42
+    email: lab.user42@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user42
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user43
+spec:
+  profile:
+    displayName: Lab User43
+    email: lab.user43@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user43
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user44
+spec:
+  profile:
+    displayName: Lab User44
+    email: lab.user44@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user44
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user45
+spec:
+  profile:
+    displayName: Lab User45
+    email: lab.user45@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user45
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user46
+spec:
+  profile:
+    displayName: Lab User46
+    email: lab.user46@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user46
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user47
+spec:
+  profile:
+    displayName: Lab User47
+    email: lab.user47@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user47
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user48
+spec:
+  profile:
+    displayName: Lab User48
+    email: lab.user48@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user48
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user49
+spec:
+  profile:
+    displayName: Lab User49
+    email: lab.user49@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user49
+  memberOf: [globex-developers, lab-users]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user50
+spec:
+  profile:
+    displayName: Lab User50
+    email: lab.user50@globex.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user50
+  memberOf: [globex-developers, lab-users]
+

@@ -1,0 +1,57 @@
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: bernard.tison
+  namespace: redhat
+  description: |
+    Bernard is a **Senior Principal Product Marketing Manager** in the Application Services Team
+spec:
+  profile:
+    displayName: Bernard Tison
+    email: btison@redhat.com
+    picture: /api/proxy/user-avatars/svg?seed=Bernard%20Tison
+  memberOf: [redhat/appservices]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: jaya.christina.baskaran
+  namespace: redhat
+  description: |
+    Jaya is a **Principal Product Marketing Manager** in the Application Services Team
+spec:
+  profile:
+    displayName: Jaya Christina Baskaran
+    email: jaya@redhat.com
+    picture: /api/proxy/user-avatars/svg?seed=Jaya%20Christina%20Baskaran
+  memberOf: [redhat/appservices]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: bruno.meseguer
+  namespace: redhat
+  description: |
+    Bruno is a **Principal Product Marketing Manager** in the Application Services Team
+spec:
+  profile:
+    displayName: Bruno Meseguer
+    email: bruno.meseguer@redhat.com
+    picture: /api/proxy/user-avatars/svg?seed=Bruno%20Meseguer
+  memberOf: [redhat/appservices]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: markus.nagel
+  namespace: redhat
+  description: |
+    Markus is a **Principal Product Marketing Manager** in the Application Services Team
+spec:
+  profile:
+    displayName: Markus Nagel
+    email: mnagel@redhat.com
+    picture: /api/proxy/user-avatars/svg?seed=lab-user4
+  memberOf: [redhat/appservices]
