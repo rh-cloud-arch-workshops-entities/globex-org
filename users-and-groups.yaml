@@ -9,3 +9,4 @@ spec:
     - ./globex-users.yaml
     - ./redhat-groups.yaml
     - ./redhat-users.yaml
+    - ./test-users.yaml
